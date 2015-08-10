@@ -1,0 +1,30 @@
+.border-box
+{
+	color:lightgrey;
+	border: 10px solid ;
+	border-radius:3px;
+	box-shadow:100px;;
+}
+.foo
+{
+	 outline: 1px solid orange;
+}
+.descArea
+{
+	text-align:justify;
+}
+.mainHeading
+{
+	font-weight:bold;
+	font-size:20px;
+	margin-bottom:10px;
+}
+.subHeading
+{
+	margin-top:10px;
+	font-weight:bold;
+}
+.subHeading-1
+{	
+	font-weight:bold;
+}

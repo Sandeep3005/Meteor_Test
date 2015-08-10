@@ -1,0 +1,8 @@
+/* CSS declarations go here */
+body 
+{ 
+padding-top: 110px; 
+font-family: Lucida Grande,Lucida Sans Unicode,Lucida Sans,Geneva,Verdana,sans-serif; 
+/*font-family: Garamond, Baskerville, 'Baskerville Old Face', 'Hoefler Text', 'Times New Roman', serif;*/
+font-size:17px;
+}
