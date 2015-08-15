@@ -1,0 +1,63 @@
+<div class="row gap_in_between">
+		<div class="col-md-3 ">
+			<img src="the_fosters/sherri_saum.jpg" width="50" height="70" alt="TVShow_Display">
+		</div>
+		<div class="col-md-4 ">Sherri Saum</div>
+		<div class="col-md-4 ">Lena Adams</div>			
+	</div>
+	<div class="row gap_in_between">
+		<div class="col-md-3 ">
+			<img src="the_fosters/maia_mitchell.jpg" width="50" height="70" alt="TVShow_Display">
+		</div>
+		<div class="col-md-4 ">Maia Mitchell</div>
+		<div class="col-md-4 ">Callie Jacob</div>		
+	</div>
+	<div class="row gap_in_between">
+		<div class="col-md-3 ">
+			<img src="the_fosters/david_lambert.jpg" width="50" height="70" alt="TVShow_Display">
+		</div>
+		<div class="col-md-4 ">David Lambert</div>
+		<div class="col-md-4 ">Brandon Foster</div>		
+	</div>
+	<div class="row ">
+		<div class="col-md-3 ">
+			<img src="the_fosters/cierra_ramirez.jpg" width="50" height="70" alt="TVShow_Display">
+		</div>
+		<div class="col-md-4 ">Cierra Ramirez</div>
+		<div class="col-md-4 ">Mariana Adams Foster</div>		
+	</div>
+	<div class="row ">
+	<div class="col-md-3">
+			<img src="the_fosters/hayden_byerly.jpg" width="50" height="70" alt="TVShow_Display">
+		</div>
+		<div class="col-md-4 ">Hayden Byerly</div>
+		<div class="col-md-4 ">Jude Jacob Adams Foster</div>		
+	</div>
+	<div class="row ">
+		<div class="col-md-3">
+			<img src="the_fosters/danny_nucci.jpg" width="50" height="70" alt="TVShow_Display">
+		</div>
+		<div class="col-md-4 ">Danny Nucci</div>
+		<div class="col-md-4 ">Mike Foster</div>		
+	</div>
+	<div class="row ">
+		<div class="col-md-3 ">
+			<img src="the_fosters/jake_austin.jpg" width="50" height="70" alt="TVShow_Display">
+		</div>
+		<div class="col-md-4">Jake T Austin</div>
+		<div class="col-md-4 ">Jesus Adams Foster</div>		
+	</div>
+	<div class="row ">
+		<div class="col-md-3 ">
+			<img src="the_fosters/gavin_macintosh.jpg" width="50" height="70" alt="TVShow_Display">
+		</div>
+		<div class="col-md-4 ">Gavin Macintosh</div>
+		<div class="col-md-4 ">Connor</div>		
+	</div>
+	<div class="row ">
+		<div class="col-md-3 ">
+			<img src="the_fosters/alex_saxon.jpg" width="50" height="70" alt="TVShow_Display">
+		</div>
+		<div class="col-md-4 ">Alex Saxon</div>
+		<div class="col-md-4 ">Wyatt</div>		
+	</div>

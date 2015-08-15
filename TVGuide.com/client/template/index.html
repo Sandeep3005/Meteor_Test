@@ -4,196 +4,23 @@
 </head>
 
 <body>
+{{> home}}
+</body>
+
+<template name="home">
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
       <img src="logo1.png" width="200" height="90" alt=""/> 
   </div>
 </nav>
-{{> show_desc}}
-
-</body>
-
-<template name="hello">
-
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  pp
-  pp
-  pp
-  p
-  p
-  p
-  p
-  p
-  p
-  p
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  pp
-  pp
-  pp
-  p
-  p
-  p
-  p
-  p
-  p
-  p
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  pp
-  pp
-  pp
-  p
-  p
-  p
-  p
-  p
-  p
-  p
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  pp
-  pp
-  pp
-  p
-  p
-  p
-  p
-  p
-  p
-  p
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  pp
-  pp
-  pp
-  p
-  p
-  p
-  p
-  p
-  p
-  p
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  pp
-  pp
-  pp
-  p
-  p
-  p
-  p
-  p
-  p
-  p
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  pp
-  pp
-  pp
-  p
-  p
-  p
-  p
-  p
-  p
-  p
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  pp
-  pp
-  pp
-  p
-  p
-  p
-  p
-  p
-  p
-  p
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  pp
-  pp
-  pp
-  p
-  p
-  p
-  p
-  p
-  p
-  p
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  pp
-  pp
-  pp
-  p
-  p
-  p
-  p
-  p
-  p
-  p
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  pp
-  pp
-  pp
-  p
-  p
-  p
-  p
-  p
-  p
-  p
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  pp
-  pp
-  pp
-  p
-  p
-  p
-  p
-  p
-  p
-  p
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  pp
-  pp
-  pp
-  p
-  p
-  p
-  p
-  p
-  p
-  p
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  pp
-  pp
-  pp
-  p
-  p
-  p
-  p
-  p
-  p
-  p
-  <button>Click Me</button>
-  <p>You've pressed the button {{counter}} times.</p>
-  pp
-  pp
-  pp
-  p
-  p
-  p
-  p
-  p
-  p
-  p
-  
+{{onIndexLoad}}
+{{#if loadShowList}}
+	{{>show_list}}
+{{else}}	
+	{{>show_list}}
+	{{> show_desc}}
+	{{>mid_section}}
+	{{>bottom_section}}
+{{/if}}
 </template>
+

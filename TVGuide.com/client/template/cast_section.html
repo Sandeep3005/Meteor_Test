@@ -1,0 +1,20 @@
+<template name="cast_section">
+<div class="row ">
+		<div class="col-md-12 mainHeading">Cast</div>
+</div>
+	{{#each showCast}}
+		{{>cast_info}}
+	{{/each}}
+	
+
+</template>
+
+<template name="cast_info">
+	<div class="row ">
+		<div class="col-md-3 ">
+			<img src="{{cast_pic}}" width="50" height="70" alt="TVShow_Display">
+		</div>
+		<div class="col-md-4 ">{{cast_name}}</div>
+		<div class="col-md-4 ">{{cast_char_name}}</div>		
+	</div>
+</template>
